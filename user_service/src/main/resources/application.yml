@@ -1,0 +1,10 @@
+server:
+  port: 9991
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 60000
